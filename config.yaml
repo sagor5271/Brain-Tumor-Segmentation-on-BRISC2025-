@@ -1,0 +1,30 @@
+# BRISC 2025 Brain Tumor Segmentation configuration
+data:
+  root: "/content/brisc2025"
+  image_size: 256
+
+training:
+  batch_size: 16
+  epochs: 20
+  learning_rate: 0.0001
+  num_workers: 2
+
+model:
+  architecture: "Unet"
+  encoder: "resnet34"
+  encoder_weights: "imagenet"
+  in_channels: 3
+  classes: 1
+
+loss:
+  name: "DiceBCELoss"
+  bce_weight: 0.5
+
+scheduler:
+  name: "ReduceLROnPlateau"
+  mode: "min"
+  factor: 0.5
+  patience: 3
+
+inference:
+  threshold: 0.5

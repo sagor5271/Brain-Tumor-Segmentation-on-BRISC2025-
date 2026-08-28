@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Data / model artifacts (large; regenerate via src/train.py)
+data/
+models/*.pth
+results/training_history.json
+results/final_metrics.json
+
+# Note: results/loss_dice_curves.png and results/sample_predictions.png
+# are kept tracked so they render directly in the README on GitHub.
+
+# IDE
+.vscode/
+.idea/

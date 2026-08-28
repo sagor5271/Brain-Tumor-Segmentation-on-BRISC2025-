@@ -44,9 +44,11 @@ Image and mask filenames share the same basename (e.g. `brisc2025_train_00001_gl
 
 ## 📈 Results
 
-![Loss and Dice Curves](results/loss_dice_curves.png)
+<img width="1189" height="440" alt="image" src="https://github.com/user-attachments/assets/1c6f56ae-2759-40b8-93f1-16c7e80ced8c" />
 
-![Sample Predictions](results/sample_predictions.png)
+
+<img width="866" height="1190" alt="image" src="https://github.com/user-attachments/assets/4b65a373-73b5-49ac-868c-ba964e6cf7f4" />
+
 
 > ⚠️ **Placeholder plots.** The two images above were generated from a quick 3-epoch
 > smoke test on tiny synthetic (random-noise) images — used only to verify the

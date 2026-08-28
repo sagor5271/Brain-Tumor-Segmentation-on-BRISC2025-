@@ -44,7 +44,13 @@ Image and mask filenames share the same basename (e.g. `brisc2025_train_00001_gl
 
 ## 📈 Results
 
+results/loss_dice_curves
+
+
 <img width="1189" height="440" alt="image" src="https://github.com/user-attachments/assets/1c6f56ae-2759-40b8-93f1-16c7e80ced8c" />
+
+
+random test samples — see per-image Dice scores above each prediction.
 
 
 <img width="866" height="1190" alt="image" src="https://github.com/user-attachments/assets/4b65a373-73b5-49ac-868c-ba964e6cf7f4" />
